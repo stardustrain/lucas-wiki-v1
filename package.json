@@ -1,7 +1,7 @@
 {
-  "name": "fx_press",
+  "name": "lucas-wiki",
   "version": "1.0.0",
-  "description": "Fe(x) wiki",
+  "description": "Lucas wiki",
   "main": "index.js",
   "scripts": {
     "start": "vuepress dev docs",
