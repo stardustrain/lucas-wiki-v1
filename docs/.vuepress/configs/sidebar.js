@@ -9,6 +9,9 @@ const sidebarConfig = [
   {
     title: 'Functional Programming'
   },
+  {
+    title: 'D3.js'
+  },
 ]
 
 module.exports = sidebarConfig
