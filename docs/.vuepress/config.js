@@ -13,6 +13,9 @@ module.exports = {
       new CopyWebpackPlugin([{
         from: './docs/.vuepress/lucashan.space.xml',
         to: './'
+      }, {
+        from: './docs/.vuepress/robots.txt',
+        to: './'
       }])
     ]
   }
