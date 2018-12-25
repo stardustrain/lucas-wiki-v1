@@ -1,3 +1,4 @@
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const navConfig = require('./configs/nav')
 const sidebarConfig = require('./configs/sidebar')
 
@@ -6,5 +7,13 @@ module.exports = {
     nav: navConfig,
     sidebar: sidebarConfig,
   },
-  ga: process.env.LUCAS_WIKI_GA
+  ga: process.env.LUCAS_WIKI_GA,
+  configureWebpack: {
+    plugins: [
+      new CopyWebpackPlugin([{
+        from: './docs/.vuepress/lucashan.space.xml',
+        to: './'
+      }])
+    ]
+  }
 }

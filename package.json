@@ -13,6 +13,7 @@
   "author": "lucas.han.public@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
     "vuepress": "^0.14.8"
   }
 }

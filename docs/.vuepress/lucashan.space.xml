@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='sitemap.xsl'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://wiki.lucashan.space/</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2018-12-25T12:41:01Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.lucashan.space/basic/01.unit-test-basic.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2018-12-25T12:41:01Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.lucashan.space/basic/</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2018-12-25T12:41:01Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.lucashan.space/basic/02.test-double.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2018-12-25T12:41:01Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.lucashan.space/D3/01.d3js-basic.html</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2018-12-25T12:41:01Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wiki.lucashan.space/D3/</loc>
+    <changefreq>Monthly</changefreq>
+    <priority>1</priority>
+    <lastmod>2018-12-25T12:41:01Z</lastmod>
+  </url>
+</urlset>
