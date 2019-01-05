@@ -14,6 +14,13 @@ const sidebarConfig = [
       ['/D3/03.d3js-drawing-bar-chart', '3. Drawing bar chart'],
     ],
   },
+  ['/2018-memoir', '2018 회고록', ]
+  // {
+  //   title: 'javascript pattern',
+  //   children: [
+  //     ['/jspattern/01.partially-applied-function', '1. Partially applied function'],
+  //   ],
+  // },
 ]
 
 module.exports = sidebarConfig
