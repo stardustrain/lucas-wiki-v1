@@ -1,9 +1,11 @@
 const sidebarConfig = [
+  ['/intro', 'Intro'],
+  ['/2018-memoir', '2018 회고록'],
   {
-    title: 'Programming Basic',
+    title: 'TDD',
     children: [
-      ['/basic/01.unit-test-basic', '1. Unit test basic'],
-      ['/basic/02.test-double', '2. Test double']
+      ['/TDD/01.unit-test-basic', '1. Unit test basic'],
+      ['/TDD/02.test-double', '2. Test double']
     ]
   },
   {
@@ -14,13 +16,13 @@ const sidebarConfig = [
       ['/D3/03.d3js-drawing-bar-chart', '3. Drawing bar chart'],
     ],
   },
-  ['/2018-memoir', '2018 회고록', ]
-  // {
-  //   title: 'javascript pattern',
-  //   children: [
-  //     ['/jspattern/01.partially-applied-function', '1. Partially applied function'],
-  //   ],
-  // },
+  {
+    title: 'HTTP definitive guide',
+    children: [
+      ['/http-guide/01.url-and-resouce', '1. URL과 리소스'],
+      // ['/http-guide/02.http-message', '2. HTTP message']
+    ]
+  }
 ]
 
 module.exports = sidebarConfig

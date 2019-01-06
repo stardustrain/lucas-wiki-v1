@@ -3,9 +3,12 @@ const navConfig = require('./configs/nav')
 const sidebarConfig = require('./configs/sidebar')
 
 module.exports = {
+  title: 'Lucas\'s wiki',
+  description: 'Frontend engineer의 연구 노트와 잡생각, 고민들',
   themeConfig: {
     nav: navConfig,
     sidebar: sidebarConfig,
+    displayAllHeaders: false,
   },
   ga: process.env.LUCAS_WIKI_GA,
   configureWebpack: {
