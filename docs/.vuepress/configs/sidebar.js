@@ -20,7 +20,7 @@ const sidebarConfig = [
     title: 'HTTP definitive guide',
     children: [
       ['/http-guide/01.url-and-resouce', '1. URL과 리소스'],
-      // ['/http-guide/02.http-message', '2. HTTP message']
+      ['/http-guide/02.http-message', '2. HTTP message'],
     ]
   }
 ]
