@@ -21,6 +21,9 @@ meta:
 
 - 2018 ~ Frontend engineer at groundX.  
 - 2017 ~ 2018 Frontend engineer at Stremi inc.  
+  - [GOPAX](https://www.gopax.co.kr/)
+  - [GOPAX global](https://www.gopax.com/)
+  - [DASK](https://www.dask.co.kr/)
 - 2016 information security at kakaogames.  
 - 2015 ~ 2016 information security at wemade ent.  
 ## Contents
