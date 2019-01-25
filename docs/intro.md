@@ -28,13 +28,14 @@ meta:
 - 2015 ~ 2016 information security at wemade ent.  
 ## Contents
   ### TDD and application testing
-  [Unit test basic](/TDD/01.unit-test-basic.html)  
-  [Test double](/TDD/02.test-double.html)  
+  [Unit test basic](https://wiki.lucashan.space/TDD/01.unit-test-basic.html)  
+  [Test double](https://wiki.lucashan.space/TDD/02.test-double.html)  
   ### D3js
-  [D3.js intro](/D3/01.d3js-basic.html)  
-  [What is an enter() function?](/D3/02.d3js-enter-function.html)  
-  [Drawing bar chart](/D3/03.d3js-drawing-bar-chart.html)  
+  [D3.js intro](https://wiki.lucashan.space/D3/01.d3js-basic.html)  
+  [What is an enter() function?](https://wiki.lucashan.space/D3/02.d3js-enter-function.html)  
+  [Drawing bar chart](https://wiki.lucashan.space/D3/03.d3js-drawing-bar-chart.html)  
   ### HTTP definitive guide
-  [URL과 리소스](/http-guide/01.url-and-resouce.html)  
+  [URL과 리소스](https://wiki.lucashan.space/http-guide/01.url-and-resouce.html)  
+  [HTTP message](https://wiki.lucashan.space/http-guide/02.http-message.html)
   ### essay
-  [2018 회고록](/2018-memoir.html)  
+  [2018 회고록](https://wiki.lucashan.space/2018-memoir.html)  
