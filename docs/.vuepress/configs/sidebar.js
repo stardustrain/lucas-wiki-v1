@@ -21,6 +21,8 @@ const sidebarConfig = [
     children: [
       ['/http-guide/01.url-and-resouce', '1. URL과 리소스'],
       ['/http-guide/02.http-message', '2. HTTP message'],
+      ['/http-guide/03-1.http-connection', '3-1. HTTP 커넥션'],
+      ['/http-guide/03-2.http-connection-management', '3-2. HTTP 커넥션 관리'],
     ]
   }
 ]
