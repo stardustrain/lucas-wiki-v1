@@ -19,7 +19,7 @@ meta:
 
 가독성과 재사용성이 뛰어난 코드를 쓰기 위해 노력하며, Testing과 Functional Programming에 흥미를 갖고 평소 제품에 녹여내기 위해 노력하고 있습니다.
 
-- 2018 ~ Frontend engineer at groundX.  
+- 2018 ~ Frontend engineer at GroundX.  
 - 2017 ~ 2018 Frontend engineer at Stremi inc.  
   - [GOPAX](https://www.gopax.co.kr/)
   - [GOPAX global](https://www.gopax.com/)
@@ -36,6 +36,9 @@ meta:
   [Drawing bar chart](https://wiki.lucashan.space/D3/03.d3js-drawing-bar-chart.html)  
   ### HTTP definitive guide
   [URL과 리소스](https://wiki.lucashan.space/http-guide/01.url-and-resouce.html)  
-  [HTTP message](https://wiki.lucashan.space/http-guide/02.http-message.html)
+  [HTTP message](https://wiki.lucashan.space/http-guide/02.http-message.html)  
+  [HTTP 커넥션](https://wiki.lucashan.space/http-guide/03-1.http-connection.html)  
+  [HTTP 커넥션 관리](https://wiki.lucashan.space/http-guide/03-2.http-connection-management.html)  
+  [Web server란](https://wiki.lucashan.space/http-guide/04.webserver.html)  
   ### essay
   [2018 회고록](https://wiki.lucashan.space/2018-memoir.html)  

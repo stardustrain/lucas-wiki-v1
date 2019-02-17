@@ -57,6 +57,21 @@
   <lastmod>2019-01-20T17:15:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://wiki.lucashan.space/http-guide/03-1.http-connection.html</loc>
+  <lastmod>2019-02-17T00:15:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/http-guide/03-2.http-connection-management.html</loc>
+  <lastmod>2019-02-17T00:15:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/http-guide/04.webserver.html</loc>
+  <lastmod>2019-02-17T00:15:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 
 </urlset>
