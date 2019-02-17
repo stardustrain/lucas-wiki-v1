@@ -14,9 +14,6 @@ module.exports = {
   configureWebpack: {
     plugins: [
       new CopyWebpackPlugin([{
-        from: './docs/.vuepress/lucashan.space.xml',
-        to: './'
-      }, {
         from: './docs/.vuepress/sitemap.xml',
         to: './'
       }, {
