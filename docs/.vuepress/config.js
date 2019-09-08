@@ -10,6 +10,9 @@ module.exports = {
     sidebar: sidebarConfig,
     displayAllHeaders: false,
   },
+  markdown: {
+    toc: { includeLevel: [2, 3] }
+  },
   ga: process.env.LUCAS_WIKI_GA,
   configureWebpack: {
     plugins: [
