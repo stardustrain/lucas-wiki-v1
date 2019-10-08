@@ -20,6 +20,7 @@ meta:
 가독성과 재사용성이 뛰어난 코드를 쓰기 위해 노력하며, Testing과 Functional Programming에 흥미를 갖고 평소 제품에 녹여내기 위해 노력하고 있습니다.
 
 - Apr 2019 ~ Sotfware engineer at ODKmedia inc.  
+  - [OndemandChina](https://www.ondemandchina.com)
 - Nov 2018 ~ Apr 2019 Frontend engineer at GroundX.  
   - [Klaytn scope](https://scope.klaytn.com/)
 - 2017 ~ Otc 2018 Frontend engineer at Stremi inc.  
