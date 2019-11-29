@@ -9,68 +9,108 @@
 
 <url>
   <loc>https://wiki.lucashan.space/</loc>
-  <lastmod>2019-01-06T17:15:04+00:00</lastmod>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/intro.html</loc>
-  <lastmod>2019-01-06T17:15:04+00:00</lastmod>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/2018-memoir.html</loc>
-  <lastmod>2019-01-06T17:15:03+00:00</lastmod>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/TDD/01.unit-test-basic.html</loc>
-  <lastmod>2019-01-06T17:15:03+00:00</lastmod>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/TDD/02.test-double.html</loc>
-  <lastmod>2019-01-06T17:15:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/TDD/03.let-it-tdd.html</loc>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/D3/01.d3js-basic.html</loc>
-  <lastmod>2019-01-06T17:15:03+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/D3/02.d3js-enter-function.html</loc>
-  <lastmod>2019-01-06T17:15:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/D3/03.d3js-drawing-bar-chart.html</loc>
-  <lastmod>2019-01-06T17:15:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/http-guide/01.url-and-resouce.html</loc>
-  <lastmod>2019-01-06T17:15:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.26</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/http-guide/02.http-message.html</loc>
-  <lastmod>2019-01-20T17:15:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.21</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/http-guide/03-1.http-connection.html</loc>
-  <lastmod>2019-02-17T00:15:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.21</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/http-guide/03-2.http-connection-management.html</loc>
-  <lastmod>2019-02-17T00:15:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.21</priority>
 </url>
 <url>
   <loc>https://wiki.lucashan.space/http-guide/04.webserver.html</loc>
-  <lastmod>2019-02-17T00:15:04+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/code-review/01.intro.html</loc>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/code-review/02.the-standard-of-code-review.html</loc>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/code-review/03.what-to-look-for-in-a-code-review.html</loc>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/code-review/04.navigating-a-CL-in-review.html</loc>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/code-review/05.speed-of-code-reviews.html</loc>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/code-review/06.how-to-write-code-review-comments.html</loc>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.13</priority>
+</url>
+<url>
+  <loc>https://wiki.lucashan.space/code-review/07.handling-pushback-in-code-reviews.html</loc>
+  <lastmod>2019-11-10T08:10:25+00:00</lastmod>
+  <priority>0.13</priority>
 </url>
 
 

@@ -5,7 +5,8 @@ const sidebarConfig = [
     title: 'TDD',
     children: [
       ['/TDD/01.unit-test-basic', '1. Unit test basic'],
-      ['/TDD/02.test-double', '2. Test double']
+      ['/TDD/02.test-double', '2. Test double'],
+      ['/TDD/03.let-it-tdd', '3. TDD 해보기'],
     ]
   },
   {

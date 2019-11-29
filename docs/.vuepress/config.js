@@ -11,7 +11,8 @@ module.exports = {
     displayAllHeaders: false,
   },
   markdown: {
-    toc: { includeLevel: [2, 3] }
+    toc: { includeLevel: [2, 3] },
+    lineNumbers: true
   },
   ga: process.env.LUCAS_WIKI_GA,
   configureWebpack: {
