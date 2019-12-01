@@ -15,7 +15,8 @@
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.2.0",
     "copy-webpack-plugin": "^4.6.0",
-    "vuepress-plugin-disqus-comment": "^0.2.3"
+    "vuepress-plugin-disqus-comment": "^0.2.3",
+    "vuepress-plugin-reading-progress": "^1.0.8"
   },
   "dependencies": {
     "vuepress": "^1.2.0"

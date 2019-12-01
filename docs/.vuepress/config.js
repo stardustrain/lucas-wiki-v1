@@ -9,10 +9,10 @@ module.exports = {
     nav: navConfig,
     sidebar: sidebarConfig,
     displayAllHeaders: false,
+    lastUpdated: 'Last modified',
   },
   markdown: {
-    toc: { includeLevel: [2, 3] },
-    lineNumbers: true
+    lineNumbers: true,
   },
   configureWebpack: {
     plugins: [
@@ -35,5 +35,6 @@ module.exports = {
     '@vuepress/google-analytics': {
       ga: process.env.LUCAS_WIKI_GA,
     },
+    'reading-progress': {},
   },
 }
