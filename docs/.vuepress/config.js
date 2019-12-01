@@ -28,5 +28,10 @@ module.exports = {
         to: './'
       }])
     ]
-  }
+  },
+  plugins: {
+    'vuepress-plugin-disqus-comment': {
+      shortname: 'wiki-lucashan-space',
+    }
+  },
 }
