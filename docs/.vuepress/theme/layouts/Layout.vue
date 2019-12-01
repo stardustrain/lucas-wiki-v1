@@ -1,6 +1,6 @@
 <template>
   <ParentLayout>
-    <template slot="page-bottom">
+    <template #page-bottom>
       <vue-disqus />
     </template>
   </ParentLayout>

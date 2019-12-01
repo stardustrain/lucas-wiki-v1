@@ -14,7 +14,6 @@ module.exports = {
     toc: { includeLevel: [2, 3] },
     lineNumbers: true
   },
-  ga: process.env.LUCAS_WIKI_GA,
   configureWebpack: {
     plugins: [
       new CopyWebpackPlugin([{
@@ -32,6 +31,9 @@ module.exports = {
   plugins: {
     'vuepress-plugin-disqus-comment': {
       shortname: 'wiki-lucashan-space',
-    }
+    },
+    '@vuepress/google-analytics': {
+      ga: process.env.LUCAS_WIKI_GA,
+    },
   },
 }
