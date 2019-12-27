@@ -1,0 +1,26 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@master
+      - name: Install dependencies
+        uses: npm Install
+      - name: Build
+        uses: npm run build
+      - name: Archive artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: dist
+          path: ./docs/.vuepress/dist
+
