@@ -7,6 +7,7 @@ on:
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -23,4 +24,18 @@ jobs:
         with:
           name: dist
           path: ./docs/.vuepress/dist
-
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@master
+        with:
+          name: dist
+      - name: Deploy firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
