@@ -35,6 +35,7 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: dist
+          path: ./docs/.vuepress/dist
       - name: Deploy firebase
         uses: w9jds/firebase-action@master
         with:
