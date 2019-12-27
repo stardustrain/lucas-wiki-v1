@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run build
+        run: LUCAS_WIKI_GA=${{ secrets.LUCAS_WIKI_GA }} npm run build
       - name: Archive artifact
         uses: actions/upload-artifact@master
         with:
