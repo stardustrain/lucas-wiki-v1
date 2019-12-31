@@ -1,6 +1,7 @@
 const sidebarConfig = [
   ['/intro', 'Intro'],
   ['/2018-memoir', '2018 회고록'],
+  ['/2019-memoir', '2019 회고록'],
   {
     title: 'TDD',
     children: [

@@ -23,7 +23,7 @@ meta:
   - [OndemandChina](https://www.ondemandchina.com)
 - Nov 2018 ~ Apr 2019 Frontend engineer at GroundX.  
   - [Klaytn scope](https://scope.klaytn.com/)
-- 2017 ~ Otc 2018 Frontend engineer at Stremi inc.  
+- Feb 2017 ~ Otc 2018 Frontend engineer at Stremi inc.  
   - [GOPAX](https://www.gopax.co.kr/)
   - [GOPAX global](https://www.gopax.com/)
   - [DASK](https://www.dask.co.kr/)

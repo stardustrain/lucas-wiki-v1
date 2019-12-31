@@ -36,9 +36,9 @@ jobs:
         with:
           name: dist
           path: ./docs/.vuepress/dist
-      # - name: Deploy firebase
-      #   uses: w9jds/firebase-action@master
-      #   with:
-      #     args: deploy --only hosting --project lucas-wiki
-      #   env:
-      #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+      - name: Deploy firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting --project lucas-wiki
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
