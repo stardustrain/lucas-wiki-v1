@@ -38,5 +38,8 @@ module.exports = {
       ga: process.env.LUCAS_WIKI_GA,
     },
     'reading-progress': {},
+    'vuepress-plugin-canonical': {
+      baseUrl: 'https://wiki.lucashan.space',
+    },
   },
 }
