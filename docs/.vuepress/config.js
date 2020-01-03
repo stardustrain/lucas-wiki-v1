@@ -7,6 +7,9 @@ console.log(process.env.LUCAS_WIKI_GA)
 module.exports = {
   title: 'Lucas\'s wiki',
   description: 'Frontend engineer의 연구 노트와 잡생각, 고민들',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico'}],
+  ],
   themeConfig: {
     nav: navConfig,
     sidebar: sidebarConfig,
