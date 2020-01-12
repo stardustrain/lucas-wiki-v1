@@ -39,6 +39,12 @@ const sidebarConfig = [
       ['/code-review/06.how-to-write-code-review-comments', '6. How to write code review comments'],
       ['/code-review/07.handling-pushback-in-code-reviews', '7. Handling pushback in code reviews'],
     ]
+  },
+  {
+    title: 'Book reports',
+    children: [
+      ['/book-reports/the-practice-of-programming', '프로그래밍 수련법'],
+    ]
   }
 ]
 
