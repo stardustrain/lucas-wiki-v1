@@ -32,7 +32,7 @@ module.exports = {
     ]
   },
   plugins: {
-    'vuepress-plugin-disqus-comment': {
+    'disqus': {
       shortname: 'wiki-lucashan-space',
     },
     '@vuepress/google-analytics': {
