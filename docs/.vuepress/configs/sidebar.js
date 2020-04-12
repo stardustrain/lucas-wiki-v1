@@ -62,6 +62,10 @@ const sidebarConfig = [
     ]
   },
   {
+    title: "Essay",
+    children: [["/essay/post-mortem-2020-Q1", "2020년 1Q OKR 회고"]]
+  },
+  {
     title: "Book reports",
     children: [
       ["/book-reports/the-practice-of-programming", "프로그래밍 수련법"]
