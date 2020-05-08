@@ -48,7 +48,10 @@ const sidebarConfig = [
   },
   {
     title: 'Essay',
-    children: [['/essay/post-mortem-2020-Q1', '2020년 1Q OKR 회고']],
+    children: [
+      ['/essay/post-mortem-2020-Q1', '2020년 1Q OKR 회고'],
+      ['/essay/story-for-experienced-to-xp-with-wife', 'XP 실천방법 따라해 보기 - Pair programming과 TDD'],
+    ],
   },
   {
     title: 'Book reports',
