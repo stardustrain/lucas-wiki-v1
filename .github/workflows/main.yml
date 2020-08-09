@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - master
+      - live
 
 jobs:
   build:
@@ -13,14 +13,14 @@ jobs:
       matrix:
         node-version: [10.x]
     steps:
-      - name: Checkout master
-        uses: actions/checkout@master
+      - name: Checkout live
+        uses: actions/checkout@v2
       - name: Install dependencies
         run: npm install
       - name: Build
         run: LUCAS_WIKI_GA=${{ secrets.LUCAS_WIKI_GA }} npm run build
       - name: Archive artifact
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@v2
         with:
           name: dist
           path: ./docs/.vuepress/dist
@@ -30,9 +30,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
       - name: Download artifact
-        uses: actions/download-artifact@master
+        uses: actions/download-artifact@v2
         with:
           name: dist
           path: ./docs/.vuepress/dist
