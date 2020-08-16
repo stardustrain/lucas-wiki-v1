@@ -58,6 +58,7 @@ const sidebarConfig = [
     children: [
       ['/book-reports/the-practice-of-programming', '프로그래밍 수련법'],
       ['/book-reports/software-craftmanship', '소프트웨어 장인'],
+      ['/book-reports/unix-a-history-and-a-memoir', '유닉스의 탄생'],
     ],
   },
 ]
