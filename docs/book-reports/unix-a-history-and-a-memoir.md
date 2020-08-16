@@ -10,7 +10,7 @@ meta:
   - property: og:description
     content: 유닉스의 탄생을 읽고 난 후 느낀점과 요약입니다.
   - property: og:url
-    content: https://wiki.lucashan.space/book-reports/software-craftmanship.html
+    content: https://wiki.lucashan.space/book-reports/unix-a-history-and-a-memoir.html
 ---
 
 # 유닉스의 탄생: 세상을 바꾼 운영체제를 만든 천재들의 숨은 이야기
