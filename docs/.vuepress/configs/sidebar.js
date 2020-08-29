@@ -1,7 +1,13 @@
 const sidebarConfig = [
   ['/intro', 'Intro'],
-  ['/2018-memoir', '2018 회고록'],
-  ['/2019-memoir', '2019 회고록'],
+  {
+    title: '회고록',
+    children: [
+      ['/2018-memoir', '2018 회고록'],
+      ['/2019-memoir', '2019 회고록'],
+      ['/essay/post-mortem-2020-Q1', '2020년 1Q OKR 회고'],
+    ],
+  },
   {
     title: 'Programming',
     children: [
@@ -22,6 +28,7 @@ const sidebarConfig = [
         ],
       },
       ['/programming/make-github-report-bot', 'Github report bot 만들기'],
+      ['/programming/introduce-a-graphql-to-odc', 'ODC에 graphql 도입하기'],
     ],
   },
   {
@@ -48,10 +55,7 @@ const sidebarConfig = [
   },
   {
     title: 'Essay',
-    children: [
-      ['/essay/post-mortem-2020-Q1', '2020년 1Q OKR 회고'],
-      ['/essay/story-for-experienced-to-xp-with-wife', 'XP 실천방법 따라해 보기 - Pair programming과 TDD'],
-    ],
+    children: [['/essay/story-for-experienced-to-xp-with-wife', 'XP 실천방법 따라해 보기 - Pair programming과 TDD']],
   },
   {
     title: 'Book reports',
