@@ -21,7 +21,7 @@ meta:
 
 그럼에도, 어떠한 이유가 있었기 때문에 여러 리스크를 감수하며 과감히 graphql을 도입하였는지 그간의 고민과 배포까지 있었던 일들을 공유하고자 한다. 아, 이 이야기는 철저히 화면을 만드는 frontend의 관점으로 전개될 것이기 때문에, backend 관점에서의 고민을 다루지 못한다는 점은 양해해 주셨으면 좋겠다.
 
-## 새로운 팀원과 ondemandchina
+## 1. 새로운 팀원과 ondemandchina
 
 올해 초 frontend team building이 마무리되면서 새로운 팀원이 5명이나 늘어났다. 급속도로 팀이 커졌지만, 다행히도 각자의 전문분야와 지식이 잘 조합되어 개선된 부분도 많았고 코드 리뷰도 퀄리티가 더 좋아졌다.
 
@@ -31,7 +31,7 @@ meta:
 
 이런 문제가 반복되다 보니, 팀의 리더인 [**그 분2**](https://blog.roto.codes/)는 어떻게 하면 좋을지에 대해 고민해보라고 ~~명령~~ 하셨고, 나와 동료인 [제프리](https://brightparagon.wordpress.com/)는 ~~절대복종~~ 문제의 원인을 먼저 찾기로 하였다.
 
-## RESTful 너란 녀석
+## 2. RESTful 너란 녀석
 
 Ondemandchina의 backend server는 전통의 강자 python DRF(django REST framework)로 구현되어있다. DRF는 (정확히 django는) 오랫동안 사랑받은 framework이기 때문에 사용자도 많고 탄탄하며, (적어도 내가 볼 때는)합리적이다. Request에 대한 response가 잘 통제되어있고, 미리 구현되어있는 base class들이 추상화가 잘 되어있어 짧은 코드로도 많은 것들을 할 수 있다는 것이 장점이다.
 
@@ -141,7 +141,7 @@ Backend 팀에게 가장 요청하기 힘든 부분이었다. 그만큼 조심�
 
 API 문서는 redoc을 통해 자동으로 만들어지고, backend팀의 [김애영 님](https://kimaeyeong.tumblr.com)이 틈틈이 관리해 주시기 때문에 퀄리티는 훌륭하지만, 중간중간 미처 확인해 주시지 못한 부분들이 존재했다. 예를 들면 reuiqred 라고 표시되어 있었는데 실제로 값이 내려오지 않는 경우도 있거나, 특정 object의 type이 JSON type이라고만 되어있어 실제로 어떤 값이 들어있는지 문서만으로는 알 수 없는 경우도 있었다. 물론 backend팀의 지속적인 노력으로 점점 이런 빈틈이 사라지고 있지만 말이다.
 
-## Graphql 도입
+## 3. Graphql 도입
 
 위의 이유로 우리 팀은 서서히 장엄하고도 우아한, 그러면서도 확실한 해결책을 찾아야 한다는 유혹에 굴복하기 시작했고, 그 유혹 중 하나였던 graphql를 선택하였다. 물론 처음부터 무조건 도입을 하기로 한 것이 아니라 충분한 PoC를 거쳐 도입 여부를 결정하기로 하였다.
 
@@ -232,7 +232,7 @@ Query나 mutation의 convention은 [github api v4](https://docs.github.com/en/gr
 
 Cache덕분에 API를 호출하던 부분의 유의미한 성능 개선을 기대할 수 있게 되었다. 이전에는 APIserver에서 각각의 endpoint를 cache하고 있더라도 결국 이 API를 각각 호출하여 조합해야 하는 문제가 있었다. 하지만 graphql이 client에서 필요한 data자체를 cache하고있다가 resolver에 도달하기 전에 response하다보니 data를 받아오는 속도 자체가 빨라질 수 있었다.
 
-## 무엇이 개선되었는가
+## 4. 무엇이 개선되었는가
 
 ### Component에 필요한 데이터를 선언할 수 있다
 
@@ -449,7 +449,7 @@ graphql-voyager로 볼 수 있는 schema 상관관계
 
 Graphql voyager의 경우 새로 합류한 팀원들에게 반응이 괜찮았다. Schema의 상관관계라는 것은 결국 화면을 구성하는 data의 상관관계이기 때문이다. 아직 graphql을 본격적으로 적용하지 않았지만, component간의 구조나 data의 흐름을 파악하는 데 많은 도움이 되었다고 한다.
 
-## 무엇이 고민이었는가
+## 5. 무엇이 고민이었는가
 
 ### 설득하기
 
@@ -471,7 +471,7 @@ QA팀에서는 결국 graphql로 점진적으로 전환하는 동안 테스트�
 
 예전에 backend 팀과 API에 대해서 의견충돌이 있었던 적이 있었다. 그렇기 때문에 우리 팀의 결정과 graphql의 도입이 정치적인 제스쳐로 보이지 않게끔 많은 노력을 했다. 자칫 잘못하다가는 backend팀과는 전혀 상관없이 일하고 싶다는 뜻으로 비칠 수 있기 때문이다. 다행히 아직 큰 문제는 없었고, 오히려 graphql이 API에 대한 의견들의 완충지대 역할을 했으면 하는 개인적인 바람이 있다.
 
-## Conclusion
+## 6. Conclusion
 
 ### 개인적인 경험
 
