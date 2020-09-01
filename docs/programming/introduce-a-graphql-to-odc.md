@@ -290,7 +290,11 @@ type FavoritesResponse = {
   count: number
   next: string
   previous: string
-  results: [Program]
+  results: Array<{
+    program: Program
+    createdAt: Date
+    updatedAt: Date
+  }>
 }
 
 type WatchHistoriesResponse = [Episode]
@@ -505,4 +509,4 @@ Graphql은 절대 모든 문제를 해결해주는 deus ex machina가 아님을 
 
 **\[뜬금 채용 공고\]**
 
-ODKMedia에서 [python 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4003500003)분과 [SRE 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)분을 애타게 찾고있습니다. 관심있으시다면 꼭 지원해주세요!
+ODKMedia에서 [python 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4003500003)분, [데이터 분석가](https://boards.greenhouse.io/odkmediainc/jobs/4101047003)분, [SRE 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)분을 애타게 찾고있습니다. 관심있으시다면 꼭 지원해주세요!
