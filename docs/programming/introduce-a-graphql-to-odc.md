@@ -139,7 +139,7 @@ const HomePage = () => {
 
 Backend 팀에게 가장 요청하기 힘든 부분이었다. 그만큼 조심스럽기도 했고. 왜냐하면 현재 회사의 backend팀이 인원에 비해 많은 부분을 담당하고 있기 때문에 인력이 많이 부족하기 때문이다 (ODKMedia에서 [python 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)를 모십니다. [SRE 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)도 모셔요. 많이많이 지원해주세요).
 
-API 문서는 redoc을 통해 자동으로 만들어지고, backend팀의 [김애영 님](https://kimaeyeong.tumblr.com)이 틈틈이 관리해 주시기 때문에 퀄리티는 훌륭하지만, 중간중간 미처 확인해 주시지 못한 부분들이 존재했다. 예를 들면 reuiqred 라고 표시되어 있었는데 실제로 값이 내려오지 않는 경우도 있거나, 특정 object의 type이 JSON type이라고만 되어있어 실제로 어떤 값이 들어있는지 문서만으로는 알 수 없는 경우도 있었다. 물론 backend팀의 지속적인 노력으로 점점 이런 빈틈이 사라지고 있지만 말이다.
+API 문서는 redoc을 통해 자동으로 만들어지고, backend팀의 [김애영 님](https://kimaeyeong.tumblr.com)이 틈틈이 관리해 주시기 때문에 퀄리티는 훌륭하지만, 중간중간 미처 확인해 주시지 못한 부분들이 존재했다. 예를 들면 required 라고 표시되어 있었는데 실제로 값이 내려오지 않는 경우도 있거나, 특정 object의 type이 JSON type이라고만 되어있어 실제로 어떤 값이 들어있는지 문서만으로는 알 수 없는 경우도 있었다. 물론 backend팀의 지속적인 노력으로 점점 이런 빈틈이 사라지고 있지만 말이다.
 
 ## 3. Graphql 도입
 
