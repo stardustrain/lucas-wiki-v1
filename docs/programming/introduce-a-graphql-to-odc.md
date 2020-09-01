@@ -15,7 +15,7 @@ meta:
 
 # ODC에 graphql 도입하기
 
-최근 세 달여간의 작업 끝에, 회사의 서비스인 [ondemandchina](https://ondemandchina.com)를 위한 graphql server를 배포했다. 작년에 팀에 합류하여 여러 가지 활약을 보여준 [김지훈](https://future-seller.dev/) (a.k.a. Professor K)님과 함께 작업을하였고, 이제부터 frontend app과 mobile app에 점진적으로 적용하는 일만 남았다.
+최근 세 달여간의 작업 끝에, 회사의 서비스인 [ondemandchina](https://ondemandchina.com)를 위한 graphql server를 배포했다. 올해 초 팀에 합류하여 여러 가지 활약을 보여준 [김지훈](https://future-seller.dev/) (a.k.a. Professor K)님과 함께 작업을 하였고, 이제부터 frontend app과 mobile app에 점진적으로 적용하는 일만 남았다.
 
 사실 팀의 관리 포인트가 하나 더(그것도 익숙한 frontend가 아닌 backend에 가까운) 늘어난다는 것은 팀 전체로 보았을 때 확실히 리스크가 있는 결정이었다. 특히 backend팀에서 운영하는 API server가 있음에도 운영 경험이 없는 서비스를 frontend팀이 도입한다는 것은 많은 설득과 과감한 결정이 있어야 하는 것이었다.
 
@@ -137,7 +137,7 @@ const HomePage = () => {
 
 ### 문서화!
 
-Backend 팀에게 가장 요청하기 힘든 부분이었다. 그만큼 조심스럽기도 했고. 왜냐하면 현재 회사의 backend팀이 인원에 비해 많은 부분을 담당하고 있기 때문에 인력이 많이 부족하기 때문이다 (ODKMedia에서 [python 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)를 모십니다. [SRE 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)도 모셔요. 많이많이 지원해주세요).
+Backend 팀에게 가장 요청하기 힘든 부분이었다. 그만큼 조심스럽기도 했고. 왜냐하면 현재 회사의 backend팀이 인원에 비해 많은 부분을 담당하고 있기 때문에 인력이 많이 부족하기 때문이다 (ODKMedia에서 [python 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4003500003)를 모십니다. [SRE 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)도 모셔요. 많이많이 지원해주세요).
 
 API 문서는 redoc을 통해 자동으로 만들어지고, backend팀의 [김애영 님](https://kimaeyeong.tumblr.com)이 틈틈이 관리해 주시기 때문에 퀄리티는 훌륭하지만, 중간중간 미처 확인해 주시지 못한 부분들이 존재했다. 예를 들면 required 라고 표시되어 있었는데 실제로 값이 내려오지 않는 경우도 있거나, 특정 object의 type이 JSON type이라고만 되어있어 실제로 어떤 값이 들어있는지 문서만으로는 알 수 없는 경우도 있었다. 물론 backend팀의 지속적인 노력으로 점점 이런 빈틈이 사라지고 있지만 말이다.
 
@@ -505,4 +505,4 @@ Graphql은 절대 모든 문제를 해결해주는 deus ex machina가 아님을 
 
 **\[뜬금 채용 공고\]**
 
-ODKMedia에서 [python 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)분과 [SRE 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)분을 애타게 찾고있습니다. 관심있으시다면 꼭 지원해주세요!
+ODKMedia에서 [python 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4003500003)분과 [SRE 개발자](https://boards.greenhouse.io/odkmediainc/jobs/4114581003)분을 애타게 찾고있습니다. 관심있으시다면 꼭 지원해주세요!
