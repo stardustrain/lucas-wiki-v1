@@ -5,7 +5,8 @@ const sidebarConfig = [
     children: [
       ['/2018-memoir', '2018 회고록'],
       ['/2019-memoir', '2019 회고록'],
-      ['/essay/post-mortem-2020-Q1', '2020년 1Q OKR 회고'],
+      ['/essay/post-mortem-2020-Q1', '2020년 Q1 OKR 회고'],
+      ['/essay/post-mortem-2020-Q3', '2020년 Q3 회고'],
     ],
   },
   {
