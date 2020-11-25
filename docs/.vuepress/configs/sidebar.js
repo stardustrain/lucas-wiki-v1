@@ -3,10 +3,10 @@ const sidebarConfig = [
   {
     title: '회고록',
     children: [
-      ['/2018-memoir', '2018 회고록'],
-      ['/2019-memoir', '2019 회고록'],
-      ['/essay/post-mortem-2020-Q1', '2020년 Q1 OKR 회고'],
-      ['/essay/post-mortem-2020-Q3', '2020년 Q3 회고'],
+      ['/post-mertem/2018-memoir', '2018 회고록'],
+      ['/post-mertem/2019-memoir', '2019 회고록'],
+      ['/post-mertem/post-mortem-2020-Q1', '2020년 Q1 OKR 회고'],
+      ['/post-mertem/post-mortem-2020-Q3', '2020년 Q3 회고'],
     ],
   },
   {
@@ -15,17 +15,17 @@ const sidebarConfig = [
       {
         title: 'TDD',
         children: [
-          ['/TDD/01.unit-test-basic', '1. Unit test basic'],
-          ['/TDD/02.test-double', '2. Test double'],
-          ['/TDD/03.let-it-tdd', '3. TDD 해보기'],
+          ['/programming/TDD/01.unit-test-basic', '1. Unit test basic'],
+          ['/programming/TDD/02.test-double', '2. Test double'],
+          ['/programming/TDD/03.let-it-tdd', '3. TDD 해보기'],
         ],
       },
       {
         title: 'D3.js',
         children: [
-          ['/D3/01.d3js-basic', '1. D3.js intro'],
-          ['/D3/02.d3js-enter-function', '2. What is an enter() function?'],
-          ['/D3/03.d3js-drawing-bar-chart', '3. Drawing bar chart'],
+          ['/programming/D3/01.d3js-basic', '1. D3.js intro'],
+          ['/programming/D3/02.d3js-enter-function', '2. What is an enter() function?'],
+          ['/programming/D3/03.d3js-drawing-bar-chart', '3. Drawing bar chart'],
         ],
       },
       ['/programming/make-github-report-bot', 'Github report bot 만들기'],
@@ -64,6 +64,14 @@ const sidebarConfig = [
       ['/book-reports/the-practice-of-programming', '프로그래밍 수련법'],
       ['/book-reports/software-craftmanship', '소프트웨어 장인'],
       ['/book-reports/unix-a-history-and-a-memoir', '유닉스의 탄생'],
+      {
+        title: 'eXtreme Programming',
+        children: [
+          ['/book-reports/extreme-programming/1', 'eXtreme Programming part 1'],
+          ['/book-reports/extreme-programming/2', 'eXtreme Programming part 2'],
+          ['/book-reports/extreme-programming/3', 'eXtreme Programming part 3'],
+        ],
+      },
     ],
   },
 ]
