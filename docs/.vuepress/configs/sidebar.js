@@ -64,7 +64,14 @@ const sidebarConfig = [
       ['/book-reports/the-practice-of-programming', '프로그래밍 수련법'],
       ['/book-reports/software-craftmanship', '소프트웨어 장인'],
       ['/book-reports/unix-a-history-and-a-memoir', '유닉스의 탄생'],
-      ['/book-reports/extreme-programming', 'eXtreme Programming'],
+      {
+        title: 'eXtreme Programming',
+        children: [
+          ['/book-reports/extreme-programming/1', 'eXtreme Programming part 1'],
+          ['/book-reports/extreme-programming/2', 'eXtreme Programming part 2'],
+          ['/book-reports/extreme-programming/3', 'eXtreme Programming part 3'],
+        ],
+      },
     ],
   },
 ]
