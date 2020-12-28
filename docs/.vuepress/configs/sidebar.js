@@ -3,10 +3,11 @@ const sidebarConfig = [
   {
     title: '회고록',
     children: [
-      ['/post-mertem/2018-memoir', '2018 회고록'],
-      ['/post-mertem/2019-memoir', '2019 회고록'],
-      ['/post-mertem/post-mortem-2020-Q1', '2020년 Q1 OKR 회고'],
-      ['/post-mertem/post-mortem-2020-Q3', '2020년 Q3 회고'],
+      ['/post-mortem/2018-memoir', '2018 회고록'],
+      ['/post-mortem/2019-memoir', '2019 회고록'],
+      ['/post-mortem/post-mortem-2020-Q1', '2020년 Q1 OKR 회고'],
+      ['/post-mortem/post-mortem-2020-Q3', '2020년 Q3 회고'],
+      ['/post-mortem/2020-memoir', '2020년 회고록'],
     ],
   },
   {
