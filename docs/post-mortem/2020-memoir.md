@@ -37,7 +37,7 @@ meta:
 
   #### GraphQL client
 
-  우선은 오랜 염원이었던 API의 model, response 타입을 auto generation 하여 strict 하게 타입 체크를 할 수 있게 되었다. [graphql-codegen](https://graphql-code-generator.com/)을 이용하니 간단하게 적용할 수 있었다. ejsms model과 API response의 타입을 수동으로 관리할 필요가 없어졌고, 이 말은 API server와 client 간의 model 타입 불일치를 막을 수 있게 되었다는 뜻이다.
+  우선은 오랜 염원이었던 API의 model, response 타입을 auto generation 하여 strict 하게 타입 체크를 할 수 있게 되었다. [graphql-codegen](https://graphql-code-generator.com/)을 이용하니 간단하게 적용할 수 있었다. 더는 model과 API response의 타입을 수동으로 관리할 필요가 없어졌고, 이 말은 API server와 client 간의 model 타입 불일치를 막을 수 있게 되었다는 뜻이다.
 
   그다음은 GraphQL server와 소통을 담당할 client library를 선정했다. 사실 [relay.js](https://relay.dev/)를 적용하고 싶었으나 **그 분2**가 반대 의사를 표시했다. 코드 수정량이 많아지고 팀원들이 relay.js 자체를 학습하는 비용이 클 것 같다는 판단이 있어서였다. 그래서 결국 [apollo client](https://www.apollographql.com/docs/react/)를 사용하게 되었으며, 자연스럽게 odc-frontend에는 apollo client에서 제공하는 client cache가 적용되었다. 적용하기까지 우여곡절이 있었으나 운영팀에서 성능에 대해 만족하고 있어 다행이라고 생각한다. 다만 2021년 Q1에 진행할 프로젝트에는 relay.js를 사용할 생각이다(이에 대해서는 따로 포스팅할 예정이다).
 
